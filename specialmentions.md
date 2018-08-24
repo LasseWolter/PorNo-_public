@@ -1,5 +1,7 @@
 # Special mentions, in no particular order
 <ul>
-<li>David Wang</li>
-<li>Jenny Lee</li>
+<li>David W</li>
+<li>Jenny L</li>
+  <li>Riccardo B</li>
+
 </ul>
