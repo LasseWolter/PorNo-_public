@@ -52,6 +52,7 @@ function main() {
       // jk I don't have a better system for checking these links faster than the page
       //  can load
       else {
+        // This function doesn't do anything at the moment, this should be change or this statement removed 
         checkURL();
       }
     });
@@ -233,6 +234,7 @@ function store(url) {
 // Ya boi Vivek out here writing a porn filter
 // @param url The url whose domain name we check against the porn sites
 function isBannedFirebase(linksFromFirebase) {
+  if(linksFromFirebase === undefined) return ;
   // Header(s) removed so that we can find the correct period to substring to
   //  in order to collect only the domain name
   let url = window.location.href.toLowerCase();

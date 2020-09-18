@@ -65,7 +65,7 @@ chrome.storage.local.get("notFirstTime", function(returnValue) {
 $(document).ready(function () {
   // initialize() fills the popup with the links saved in storage
   // setIncognito() informs users to enable the extension in incognito
-  updateDB();
+  // updateDB(); // is undefined - can it be deleted?
   setIncognito();
   initialize();
 
